@@ -1,0 +1,18 @@
+@import url(index.css);
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    color: white;
+    font-family: Raleway-Regular;
+    background-color: black;
+} 
+.dio-logo{
+    width: 300px;
+}
+#dioMe{
+    text-decoration: none;
+    color: var(--corPrimaria);
+}

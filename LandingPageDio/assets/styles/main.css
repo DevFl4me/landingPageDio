@@ -1,0 +1,112 @@
+@import url(index.css);
+
+main{
+    height:auto;
+    width: 100%;
+    background-color: black;
+}
+/* INICIO SECTION APRESENTAÇÃO */
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+    border-bottom: 1px solid var(--corPrimaria);
+}
+/* CONTAINER */
+#container-apresentacao{
+    text-align: center;
+    width: 800px;
+    height: auto;
+}
+/* H1 */
+#title-apresentacao{
+    font-size: 2rem;
+    color:var(--corPrimaria);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+/* ESTILIZANDO TEXTO DE APRESENTAÇÃO DOS MODULOS */
+#apresentacao-modulos{
+    font-size: 16px;
+    color: #ffff;
+    font-family: Raleway-Regular;
+    margin-bottom: 24px;
+}
+/* CONTAINER DOS MODULOS */
+.modulo-list{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+    width:100%;
+}
+/* ESTILIZANDO MODULOS */
+.modulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    width: 530px;
+    height: 50px;
+    color: #fff;
+    border: 1px solid var(--corPrimaria);
+    background-color:#252525;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7) ;
+}
+span{
+    color: var(--corPrimaria);
+}
+/* FIM SECTION APRESENTAÇÃO */
+
+/* INICIO SECTION transforme-mundo */
+.transforme-mundo{
+    background-image:url(../images/woman-code.png);
+    background-attachment:fixed ;
+    border-bottom: 1px solid var(--corPrimaria);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    padding: 200px;
+}
+#title-transforme{
+    width: 350px;
+    color: #fff;
+    font-family: Raleway-ExtraBold;
+    font-size: 30px;
+    font-weight: 900;
+    filter: drop-shadow(10px 20px 4px var(--corPrimaria));
+}
+/* FIM SECTION transforme-mundo */
+
+.desafios-profissionais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px var(--corPrimaria);
+}
+.desafios-profissionais p{
+    color: #fff;
+    font-family: Raleway-Regular;
+}
+#container-desafios{
+    width: 800px;
+    text-align: center;
+    
+}
+#title-desafios{
+    color: var(--corPrimaria);
+    font-family:Raleway-Regular;
+    line-height: 37.57px;
+    letter-spacing: 5px;
+    font-size: 32px;
+}
